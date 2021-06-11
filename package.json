@@ -1,0 +1,17 @@
+{
+  "name": "gpu-monitoring",
+  "version": "1.0.0",
+  "description": "script to monitor gpus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Test command",
+    "start": "node index.js"
+  },
+  "author": "Alexandre Landry",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "node-html-parser": "^3.3.5",
+    "nodemailer": "^6.6.1"
+  }
+}
